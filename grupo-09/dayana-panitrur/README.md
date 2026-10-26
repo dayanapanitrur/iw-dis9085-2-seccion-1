@@ -79,7 +79,7 @@ Las secciones principales son:
 - Fechas
 - Escuchar
 
-Luego en el *<main>* lo que haremos será empezar a dividir por secciones, en nuestra página contamos con 4 secciones principales,`<section class="hero"></section>` y esta corresponde a la portada.
+Luego en el `<main>` lo que haremos será empezar a dividir por secciones, en nuestra página contamos con 4 secciones principales,`<section class="hero"></section>` y esta corresponde a la portada.
 
 * Problema que tuve: se me ocurrió hacer el logo en canvas y no me di cuenta que para exportar en formato svg te pide premium, así que quedó en formato png.
 
