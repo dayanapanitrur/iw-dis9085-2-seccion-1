@@ -476,12 +476,12 @@ Este primer acercamiento lo hice con Gemini por lo que no brindó tan buenos res
 
 6. Resultado final
 
-![Inicio](./assets/inicio.png)
+![Inicio](./imagenes/inicio.png)
 
-![Lineup](./assets/lineup.png)
+![Lineup](./imagenes/lineup.png)
 
-![Fechas](./assets/fechas.png)
+![Fechas](./imagenes/fechas.png)
 
-![Escuchar](./assets/escuchar.png)
+![Escuchar](./imagenes/escuchar.png)
 
-![Footer](./assets/footer.png)
+![Footer](./imagenes/footer.png)
