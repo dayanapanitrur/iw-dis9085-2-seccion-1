@@ -1,4 +1,5 @@
-Documentación README.md para Solemne 02 interfaces web
+
+# Documentación personal Solemne 02
 
 	1. Prototipo figma
 	2. Herramientas usadas que hacen el trabajo más cómodo o práctico
@@ -8,14 +9,12 @@ Documentación README.md para Solemne 02 interfaces web
 
 ---
 
-# Documentación personal Solemne 02
-
 ## 1. Prototipo figma
 
 Esta es una página de un evento ficticio de música electrónica, llamado RUIDO/0 SESSIONS el cual tiene la premisa de ser sesiones más que conciertos en sí, donde la gente comparte espacio con el dj.
 
-Los colores que se usaron fueron rojo, blanco, gris y negro, para elementos destacados se usó el color rojo como el lineup.
-La estructura de la página es: un header, una portada, una descripción que va de inmediato abajo de la portada, un lineup, un apartado de "descubrir sesiones" para que la gente pueda revisar sesiones de los djs, la sección de las fechas del evento, sección de escuchar y un footer en el cual se encuentra una opcion para volver al inicio, auspiciadores y el instagram.
+Los colores que se usaron fueron rojo, blanco, gris y negro, para elementos destacados se usó el color rojo como por ejemplo el lineup.
+La estructura de la página es: un header, el cual tiene la propiedad "sticky" que se realiza en el CSS, para que se mantenga siempre arriba incluso mientras uno navega por la página, esto para acceder a distintos lugares desde donde sea que estemos. Una portada, la cual contiene el fondo rojo y el logo en color negro, de inmediato una descripción que va abajo de la portada, un sección de lineup: se presentan 11 djs, un apartado de "descubrir sesiones" para que la gente pueda revisar sesiones de los djs, la sección de las fechas del evento, sección de escuchar y un footer en el cual se encuentra una opción para volver al inicio, auspiciadores y un link que dirige a instagram.
 
 [imágenes figma]
 
@@ -71,11 +70,26 @@ Terminado este espacio del `<head>`, comencemos a escribir el cuerpo y esto se h
 
 Dentro del cuerpo del HTML deben ir por lo menos 3 cosas: el header, el main y el footer, en ese orden respectivamente.
 
-Para crear esta sección tomé de referencia el último código trabajado en clases (actividad 03), en el *header* coloqué la estructura `<nav> con ul > li > a` para crear el menú que navega hacia distintas secciones del sitio. Y que además nos va a aparecer enlistado hacia abajo, pero no importa porque luego eso se arregla en el CSS.
+Para crear el HTML tomé de referencia el último código trabajado en clases (actividad 03), en el *header* coloqué la estructura `<nav> con ul > li > a` para crear el menú que navega hacia distintas secciones del sitio. Y que además nos va a aparecer enlistado hacia abajo, pero no importa porque luego eso se arregla en el CSS.
 
-Luego en el *<main>* lo que haremos será empezar a dividir por secciones, en nuestra página contamos con 4 secciones,`<section class="hero"></section>` y esta corresponde a la portada.
+Las secciones principales son:
 
-* Problemas que tuve: se me ocurrió hacer el logo en canvas y no me di cuenta que para exportar en formato svg te pide premium, así que quedó en formato png.
+- Inicio
+- Lineup
+- Fechas
+- Escuchar
+
+Luego en el *<main>* lo que haremos será empezar a dividir por secciones, en nuestra página contamos con 4 secciones principales,`<section class="hero"></section>` y esta corresponde a la portada.
+
+* Problema que tuve: se me ocurrió hacer el logo en canvas y no me di cuenta que para exportar en formato svg te pide premium, así que quedó en formato png.
+
+Por lo que quedó así:
+
+```cpp
+            <h1 class="logo-principal">
+                <img src="assets/RUIDO0.png" alt="RUIDO/0 sessions">
+            </h1>
+```
 
 * El lineup:
 
@@ -190,13 +204,13 @@ Para los días usé <article class="fecha-dia">
 
 Y realicé la jerarquización así
 
-Se le asigna <h2> a las fechas: <h2>FECHAS</h2>
+Se le asigna <h2> a las fechas: ```<h2>FECHAS</h2>```
 
-<h3> al lugar del evento
+```<h3>``` al lugar del evento
 
-y <h4> a las fechas como tal
+y ```<h4>``` a las fechas como tal
 
-luego dentro de los <h4> está el listado de los djs por cada día
+luego dentro de los ```<h4>``` está el listado de los djs por cada día
 
 * escuchar
 
