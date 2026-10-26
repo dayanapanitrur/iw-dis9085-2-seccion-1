@@ -314,23 +314,23 @@ Luego sigue la sección de las fechas
 
 Los djs se separaron en 4 días por estilos musicales.
 
-Para los días usé <article class="fecha-dia">
+Para los días usé `<article class="fecha-dia">`
 
 Y realicé la jerarquización así
 
-Se le asigna <h2> a las fechas: ```<h2>FECHAS</h2>```
+Se le asigna `<h2>` a las fechas: `<h2>FECHAS</h2>`
 
-```<h3>``` al lugar del evento
+`<h3>` al lugar del evento
 
-y ```<h4>``` a las fechas como tal
+y `<h4>` a las fechas como tal
 
-luego dentro de los ```<h4>``` está el listado de los djs por cada día
+luego dentro de los `<h4>` está el listado de los djs por cada día
 
 ### Escuchar
 
 es la última sección dentro del `<main>`. 
 
-```
+```cpp
  <!-- Componente 5: Escuchar -->
         <section id="ESCUCHAR" class="escuchar">
             <h2>ESCUCHAR</h2>
@@ -475,3 +475,13 @@ Prompt de nos pasó Janis para realizar el CSS una vez que tuviéramos listo el 
 Este primer acercamiento lo hice con Gemini por lo que no brindó tan buenos resultados, no eran tan fieles. Con Claude la vida se hizo más fácil y tomó el diseño de figma, cada dato los tomó y los aplicó al CSS. 
 
 6. Resultado final
+
+![Inicio](./assets/inicio.png)
+
+![Lineup](./assets/lineup.png)
+
+![Fechas](./assets/fechas.png)
+
+![Escuchar](./assets/escuchar.png)
+
+![Footer](./assets/footer.png)
